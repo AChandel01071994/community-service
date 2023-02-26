@@ -9,5 +9,11 @@
     "sourceType": "module"
   },
   "plugins": ["prettier"],
-  "rules": { "no-console": "error", "prettier/prettier": 2 }
+  "rules": {
+    "no-console": "warn",
+    "prettier/prettier": "error",
+    "@typescript-eslint/consistent-type-imports": "off",
+    "@typescript-eslint/consistent-type-exports": "off",
+    "@typescript-eslint/no-misused-promises": "off"
+  }
 }

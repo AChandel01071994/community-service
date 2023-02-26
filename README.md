@@ -1,23 +1,33 @@
 # community-service
 
-Node Version
-v14.18.2
+Use
 
-To commit a change, use `yarn commit`, this enforces conventional commits
+```
+Node
+Version
+v14.18.2
+```
+
+## Swagger API Docs
+
+http://localhost:8000/api-docs (Incomplete, sample schema added)
+
+- To commit a change, use `yarn commit`, this enforces conventional commits
 
 ## Steps to run in local
 
-- rename `.env.example` to `.env` & update the values
+- Rename `.env.example` to `.env` & update the values
+- Run - `yarn dev`
 
 ## Steps to run in production
 
-- rename `.env.example` to `.env` & update the values
-- yarn prod
+- Rename `.env.example` to `.env` & update the values
+- Run - `yarn prod`
 
 ## Possible enhancements
 
 - Use Docker
-- Use a Monitoring service like Newrelic
+- Integrate a Monitoring service like Newrelic
 
 ## Tooling
 
@@ -25,3 +35,4 @@ To commit a change, use `yarn commit`, this enforces conventional commits
 - Prettier
 - eslint
 - lint-staged
+- Swagger
